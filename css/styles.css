@@ -1,0 +1,53 @@
+/* цвет текста  #757575;
+  цвет заголовков  и кнопок#212121
+  акцент+часть лого #2196F3;
+  белый #FFFFFF
+  вторичный цвет фона #2F303A
+ */
+/* site colors */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
+  --bgd-button-color: #f5f4fa;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Button */
+.button {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+
+.button .primary {
+  color: var(--title-text-color);
+  background-color: var(--bgd-button-color);
+}
