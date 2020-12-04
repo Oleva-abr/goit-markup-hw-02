@@ -43,6 +43,7 @@ ul {
 }
 
 /* Button */
+
 .button {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
@@ -51,4 +52,8 @@ ul {
 .button .primary {
   color: var(--title-text-color);
   background-color: var(--bgd-button-color);
+}
+.primary:hover {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
 }
