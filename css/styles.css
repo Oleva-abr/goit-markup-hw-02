@@ -16,7 +16,7 @@ body {
   background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 /* logo */
@@ -46,8 +46,21 @@ ul {
   text-align: center;
   background: #2f303a;
 }
-.section-title {
+.section-title-primary {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section-title-secondary {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.title-uppercase {
+  text-transform: uppercase;
 }
 .address {
   color: var(--primary-text-color);
