@@ -36,6 +36,7 @@ body {
 ul {
   list-style: none;
 }
+/* Titles */
 .title {
   color: var(--hero-text-color);
   font-weight: 900;
@@ -59,9 +60,32 @@ ul {
   font-size: 14px;
   line-height: 1.14;
 }
+.section-title-portfolio {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+}
 .title-uppercase {
   text-transform: uppercase;
 }
+
+/* Texts */
+
+.section-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-team-text {
+  font-size: 16px;
+  line-height: 1.18;
+}
+.section-portfolio-text {
+  font-size: 16px;
+  line-height: 1.86;
+}
+
+/* Address */
+
 .address {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
