@@ -18,6 +18,9 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+a {
+  text-decoration: none;
+}
 
 /* logo */
 .logo {
@@ -68,7 +71,9 @@ ul {
 .title-uppercase {
   text-transform: uppercase;
 }
-
+.team-section {
+  background: #f5f4fa;
+}
 /* Texts */
 
 .section-text {
@@ -127,4 +132,25 @@ ul {
 .primary:hover {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--hero-text-color);
+}
+.footer-address {
+  color: var(--hero-text-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-mail,
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
