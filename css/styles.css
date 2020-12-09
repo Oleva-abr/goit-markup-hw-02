@@ -101,11 +101,12 @@ ul {
 }
 
 /* site nav */
-.site-nav .link {
+.site-nav,
+.link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -120,14 +121,17 @@ ul {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 0, 61;
+  line-height: 1.87;
 }
 
-.button .primary {
+.button.primary {
   color: var(--title-text-color);
   background-color: var(--bgd-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .primary:hover {
   color: var(--hero-text-color);
